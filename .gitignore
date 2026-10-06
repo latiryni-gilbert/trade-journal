@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secrets (passwords, API keys) - used later
+.env
+
+# PRIVATE TRADING DATA - never commit
+data/raw/
+*.csv
+
+# Exception: fake test data is allowed
+!tests/fixtures/*.csv
